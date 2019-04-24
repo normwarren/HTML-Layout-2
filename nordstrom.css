@@ -1,0 +1,100 @@
+body {
+  margin: 0 1em;
+  font-family: sans-serif;
+}
+
+.navbar {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.company {
+  text-transform: uppercase;
+  font-family: serif;
+  font-size: 1.5em;
+}
+
+.nav-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: capitalize;
+}
+
+.link,
+.user-nav {
+  margin: 0 0.5em;
+}
+
+.user-nav {
+  text-transform: capitalize;
+}
+
+.hero {
+  height: 75vh;
+  padding: 2em;
+  background: aquamarine;
+  display: flex;
+  align-items: center;
+}
+
+.hero h3 {
+  text-transform: capitalize;
+}
+
+.hero p {
+  width: 250px;
+  font-size: 10px;
+}
+
+.promos {
+  display: flex;
+  justify-content: space-between;
+  margin: 10em 0;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.promo {
+  border: 1px solid #eee;
+  height: 100px;
+  width: 200px;
+  margin: 0 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.looks {
+  display: flex;
+  height: 500px;
+}
+
+.main-look {
+  width: 60%;
+  background: tomato;
+}
+
+.secondary-looks {
+  width: 40%;
+  margin-left: 1em;
+}
+
+.look.one {
+  height: 50%;
+  background: dimgray;
+  margin-bottom: 0.5em;
+}
+
+.look.two {
+  height: 50%;
+  background: indigo;
+  margin-top: 0.5em;
+}
